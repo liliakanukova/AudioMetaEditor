@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/ui/svg">
+        <file>drag-drop-icon.svg</file>
+        <file>drag-drop-icon-activated.svg</file>
+    </qresource>
+    <qresource prefix="/ui/qss">
+        <file>style.qss</file>
+    </qresource>
+</RCC>

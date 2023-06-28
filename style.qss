@@ -1,0 +1,109 @@
+/* Стили для QScrollBar */
+QScrollBar:vertical {
+    background-color: #F0F0F0;
+    width: 20px;
+}
+
+QScrollBar:horizontal {
+    background-color: #F0F0F0;
+    height: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #444444;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #444444;
+    min-width: 20px;
+    border-radius: 5px;
+}
+
+/* Стили для QMessageBox */
+QMessageBox {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+QMessageBox QLabel {
+    color: #444444;
+}
+
+/* Общие стили */
+QWidget {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+/* Стили для QListWidget */
+QListWidget {
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-right: 1px solid #DDDDDD;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+QListWidget::item {
+    color: #444444;
+    padding: 5px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+QListWidget::item:hover {
+    background-color: #AAAAAA;
+    color: #FFFFFF;
+    border-radius: 5px;
+        padding: 0;
+}
+
+QListWidget::item:selected {
+    background-color: #00BFFF;
+    color: #FFFFFF;
+	padding: 0;
+}
+
+/* Стили для QPushButton */
+QPushButton {
+    background-color: #444444;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+QPushButton#closeButton {
+    background-color: #707070;
+}
+
+QPushButton#closeButton:hover {
+    background-color: #111111;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}
+
+QPushButton:pressed {
+    background-color: #666666;
+}
+
+/* Стили для QTableWidget */
+QTableWidget {
+    background-color: #FFFFFF;
+}
+
+QTableWidget::item {
+    color: #111111;
+    border-radius: 5px;
+}
+
+QTableWidget::item:hover {
+    background-color: #E0E0E0;
+}
+
+QTableWidget::item:selected {
+    background-color: #C0C0C0;
+}
