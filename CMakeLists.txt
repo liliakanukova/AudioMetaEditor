@@ -42,7 +42,7 @@ add_executable(AudioMetaEditor
 enable_testing()
 add_subdirectory(test)
 
-#set(tag_DIR "D:/CppLibs/taglib")
-target_include_directories(AudioMetaEditor PRIVATE ${tag_DIR}/include)
-target_link_directories(AudioMetaEditor PRIVATE ${tag_DIR}/lib)
+set(TAGLIB_DIR "C:/Users/LENOVO/Downloads/project/taglib/taglib")
+target_include_directories(AudioMetaEditor PRIVATE ${TAGLIB_DIR}/include)
+target_link_directories(AudioMetaEditor PRIVATE ${TAGLIB_DIR}/lib)
 target_link_libraries(AudioMetaEditor PRIVATE tag Qt${QT_VERSION_MAJOR}::Widgets)
